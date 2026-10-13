@@ -1,0 +1,46 @@
+.hotelList {
+	width: 100%;
+	max-width: 1024px;
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+.hotelList-Item {
+	flex: 1;
+	gap: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+.hotelList-Img {
+	width: 240px;
+	height: 250px;
+	object-fit: cover;
+}
+
+.hotelList-Name {
+	color: #333;
+	font-weight: bold;
+}
+
+.hotelList-City {
+	font-weight: 300;
+}
+
+.hotelList-Price {
+	font-weight: 500;
+}
+
+.hotelList-Rating > button {
+	background-color: #003580;
+	color: white;
+	border: none;
+	padding: 3px;
+	margin-right: 10px;
+	font-weight: bold;
+}
+
+.hotelList-Rating > span {
+	font-size: 14px;
+}
